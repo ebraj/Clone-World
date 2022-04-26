@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="40" viewBox="0 0 50 40">
+  <defs>
+    <clipPath id="clip-CrossMenu">
+      <rect width="50" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="CrossMenu" clip-path="url(#clip-CrossMenu)">
+    <g id="CrossMenu-2" data-name="CrossMenu">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="32" height="2" transform="translate(14.393 7.979) rotate(45)" fill="#042825"/>
+      <path id="Path_1" data-name="Path 1" d="M0,0H32V2H0Z" transform="translate(12.979 30.607) rotate(-45)" fill="#042825"/>
+    </g>
+  </g>
+</svg>

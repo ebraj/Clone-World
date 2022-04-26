@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "LGBold";
+  src: url("../public/fonts/LGBold.otf");
+}
+@font-face {
+  font-family: "LGRegular";
+  src: url("../public/fonts/LGRegular.otf");
+}
+@font-face {
+  font-family: "LGSemiBold";
+  src: url("../public/fonts/LGSemiBold.otf");
+}
+
+/* Including our custom font to our whole body */
+@layer base {
+  body {
+    @apply font-LGRegular;
+    font-size: 19px;
+  }
+
+  h2 {
+    font-size: 20px;
+    @apply font-LGSemiBold;
+  }
+}
+
+/* Custom Button */
+@layer components {
+  .custom-white-btn {
+    @apply px-5 py-2 rounded-full bg-custom-primary-white text-custom-background-green;
+  }
+}
+
+/* Styling the svg */

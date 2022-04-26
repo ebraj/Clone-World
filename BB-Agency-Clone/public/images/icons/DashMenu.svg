@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="40" viewBox="0 0 50 40">
+  <defs>
+    <clipPath id="clip-DashMenu">
+      <rect width="50" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="DashMenu" clip-path="url(#clip-DashMenu)">
+    <g id="DashMenu-2" data-name="DashMenu" transform="translate(4 -5)">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="32" height="2" transform="translate(5 17)" fill="#fff"/>
+      <path id="Path_1" data-name="Path 1" d="M0,0H32V2H0Z" transform="translate(5 31)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
