@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <>
       {/* Navbar for the large screen */}
-      <nav className="flex py-5 text-custom-primary-white items-center justify-between">
+      <nav className="flex py-10 text-custom-primary-white items-center justify-between">
         {/* Logo/Title */}
         <div className="">
           <h2>Balkan Bros.</h2>
@@ -35,7 +35,7 @@ function Navbar() {
 
         {/* NavList for Mobile View */}
         {isMenuOpen && (
-          <ul className="absolute min-h-screen top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-center space-y-5 text-4xl text-custom-background-green bg-custom-primary-white">
+          <ul className="fixed h-screen top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-center space-y-5 text-4xl text-custom-background-green bg-custom-primary-white">
             <li>Work</li>
             <li>Services</li>
             <li>About Us</li>

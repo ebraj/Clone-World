@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 
 // Components
@@ -17,6 +18,7 @@ export default function Home() {
       <div className="relative bg-custom-background-green px-5">
         <div className="max-w-screen-xl mx-auto">
           <Navbar />
+          <Header />
         </div>
       </div>
     </div>
