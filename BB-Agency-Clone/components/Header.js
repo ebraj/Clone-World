@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Header() {
   return (
     <>
@@ -78,6 +80,13 @@ function Header() {
               services that improve the lives of thousands every single day.
             </p>
           </p>
+
+          {/* Link */}
+          <div className="pt-10 text-2xl md:text-3xl">
+            <Link href="/">
+              <a className="border-b border-custom-light-green">Our approach</a>
+            </Link>
+          </div>
         </div>
       </div>
     </>

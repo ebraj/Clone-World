@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
+import Work from "../components/Work";
 
 // Components
 export default function Home() {
@@ -15,10 +16,17 @@ export default function Home() {
       </Head>
 
       {/* Main Div */}
-      <div className="relative bg-custom-background-green px-5">
+      <div className="relative bg-custom-background-green px-5 md:px-16 lg:px-28">
         <div className="max-w-screen-xl mx-auto">
           <Navbar />
           <Header />
+        </div>
+      </div>
+
+      {/* Main Section */}
+      <div className="bg-white px-5 md:px-16 lg:px-28 py-14">
+        <div className="max-w-screen-xl mx-auto">
+          <Work />
         </div>
       </div>
     </div>
