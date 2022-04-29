@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Work from "../components/Work";
+import LPAbout from "../components/LPAbout";
 
 // Components
 export default function Home() {
@@ -27,6 +28,13 @@ export default function Home() {
       <div className="bg-white px-5 md:px-16 lg:px-28 py-14">
         <div className="max-w-screen-xl mx-auto">
           <Work />
+        </div>
+      </div>
+
+      {/* LpAbout Section */}
+      <div className="bg-custom-background-green px-5 md:px-16 lg:px-28 py-14">
+        <div className="max-w-screen-xl mx-auto">
+          <LPAbout />
         </div>
       </div>
     </div>
