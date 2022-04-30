@@ -4,7 +4,7 @@ function LPAbout() {
   return (
     <div className="text-white">
       {/* Upper Portion */}
-      <p className="w-11/12 mx-auto text-3xl text-center leading-[40px] sm:text-4xl md:text-6xl md:leading-[70px] md:w-9/12 md:py-24">
+      <p className="w-11/12 mx-auto text-3xl text-center leading-[40px] sm:text-4xl md:text-6xl md:leading-[70px] sm:w-9/12 md:py-24">
         We translate research into solutions, crafting thoughtful and unified
         brands, apps, websites, interfaces, and systems.
       </p>
@@ -36,7 +36,7 @@ function LPAbout() {
       </div>
 
       {/* FAQ Section */}
-      <div className="grid grid-col-1 space-y-16 text-xl py-14 md:grid-cols-2 gap-10">
+      <div className="grid grid-col-1 space-y-16 text-xl py-14 sm:grid-cols-2 gap-10">
         {/* Image Section */}
         <div className="px-10 md:px-36">
           <Image
