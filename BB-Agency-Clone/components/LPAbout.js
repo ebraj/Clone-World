@@ -13,6 +13,7 @@ function LPAbout() {
         {/* Right portion */}
         <div className="">
           <Image
+            alt="Lpabout"
             src="/images/landing-page-images/lpabout.jpeg"
             layout="responsive"
             width={1200}
@@ -51,7 +52,7 @@ function LPAbout() {
         <div className="py-10 place-self-center md:-order-1 md:text-2xl">
           <p className="text-3xl">How can we work together?</p>
           <p className="py-6">
-            We’ve developed a simple onboarding process to help us better
+            We have developed a simple onboarding process to help us better
             understand our client's strategic needs.
           </p>
 

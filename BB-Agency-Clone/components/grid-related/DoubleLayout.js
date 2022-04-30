@@ -73,7 +73,7 @@ function DoubleLayout() {
       {/* Left Part */}
       {imageDetails.map((singleImgDetail) => {
         return (
-          <div>
+          <div key={singleImgDetail.imgSrc}>
             <Image
               src={`/images/works/${singleImgDetail.imgSrc}.jpeg`}
               layout="responsive"
