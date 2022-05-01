@@ -11,7 +11,7 @@ function LPAbout() {
 
       <div className="grid grid-col-1 space-y-16 text-xl py-14 md:grid-cols-2 gap-10">
         {/* Right portion */}
-        <div className="">
+        <div>
           <Image
             alt="Lpabout"
             src="/images/landing-page-images/lpabout.jpeg"
