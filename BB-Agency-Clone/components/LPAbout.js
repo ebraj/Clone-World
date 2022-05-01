@@ -41,6 +41,7 @@ function LPAbout() {
         {/* Image Section */}
         <div className="px-10 md:px-36">
           <Image
+            alt="lpfaq"
             src="/images/landing-page-images/lpfaq.png"
             layout="responsive"
             width={524}
@@ -53,7 +54,7 @@ function LPAbout() {
           <p className="text-3xl">How can we work together?</p>
           <p className="py-6">
             We have developed a simple onboarding process to help us better
-            understand our client's strategic needs.
+            understand our clients strategic needs.
           </p>
 
           <span className="border-b">Read FAQ</span>
