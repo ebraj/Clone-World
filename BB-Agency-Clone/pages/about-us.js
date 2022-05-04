@@ -1,17 +1,16 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Layout from "../components/layout/Layout";
+import MaxWLayout from "../components/layout/MaxWLayout";
 
-function aboutUs() {
+function aboutus() {
   return (
     <>
-      {/* Main Div */}
-      <div className="relative bg-custom-background-green px-5 md:px-16 lg:px-28">
-        <div className="max-w-screen-xl mx-auto">
-          <Navbar />
-        </div>
-      </div>
+      <Layout>
+        <MaxWLayout>
+          <div>Comming Soon!</div>
+        </MaxWLayout>
+      </Layout>
     </>
   );
 }
 
-export default aboutUs;
+export default aboutus;

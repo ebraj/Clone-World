@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-function LPAbout() {
+function About() {
   return (
     <div className="text-white">
       {/* Upper Portion */}
@@ -64,4 +64,4 @@ function LPAbout() {
   );
 }
 
-export default LPAbout;
+export default About;

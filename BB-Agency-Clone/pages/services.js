@@ -1,17 +1,23 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
-import Header from "../components/services-rltd/Header";
+import Layout from "../components/layout/Layout";
+import MaxWLayout from "../components/layout/MaxWLayout";
+import Header from "../components/sections/services/Header";
+import Main from "../components/sections/services/Main";
+import { datas } from "../components/datas/services";
 
 function services() {
   return (
     <>
-      {/* Main Div */}
-      <div className="text-white relative bg-custom-background-green px-5 md:px-16 lg:px-28">
-        <div className="max-w-screen-xl mx-auto">
-          <Navbar />
-          <Header />
-        </div>
-      </div>
+      <Layout>
+        {/* Header Section */}
+        <MaxWLayout>
+          <Header datas={datas} />
+        </MaxWLayout>
+
+        {/* Main Section */}
+        {/* <MaxWLayout bgColor="bg-white" textColor="text-custom-background-green">
+          <Main datas={datas} />
+        </MaxWLayout> */}
+      </Layout>
     </>
   );
 }

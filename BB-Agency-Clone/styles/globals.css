@@ -19,11 +19,10 @@
 @layer base {
   body {
     @apply font-LGRegular;
-    font-size: 19px;
+    font-size: 20px;
   }
 
-  h2 {
-    font-size: 20px;
+  h1 {
     @apply font-LGSemiBold;
   }
 }

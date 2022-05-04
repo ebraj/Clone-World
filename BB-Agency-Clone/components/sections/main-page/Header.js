@@ -3,7 +3,7 @@ import Link from "next/link";
 function Header() {
   return (
     <>
-      <div className="text-white py-14">
+      <div className="bg-custom-background-green text-white py-14">
         {/* Title & Description Portion */}
         <div>
           <h1 className="text-5xl leading-[60px] md:text-6xl md:leading-[70px] md:w-4/6">
