@@ -12,7 +12,7 @@ function Main({ datas }) {
       <div>
         {datas.workImgDetails.map((singleData) => {
           return (
-            <div className="space-y-8 py-10">
+            <div className="space-y-8 py-10" key={singleData.imgSrc}>
               {/* Image part */}
               <div>
                 <Image
