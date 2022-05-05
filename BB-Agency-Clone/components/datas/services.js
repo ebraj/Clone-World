@@ -66,4 +66,41 @@ export const datas = {
       learnmore: false,
     },
   ],
+
+  quoteDetails: [
+    {
+      imgSrc: "/images/services-page-images/ankur-nagpal@2x.jpeg",
+      title: "100k+ — creators using Teachable every day.",
+      description:
+        "“BB Agency was a game changer for Teachable — we used them to design our homepage (and have used that for many years) and they were the first people we turned to when we needed to build a marketplace. I highly recommend them and our team loves working with them.”",
+      author: "Ankur Nagpal",
+      position: "— Founder and CEO at Teachable",
+    },
+    {
+      imgSrc: "/images/services-page-images/matheus-matioli@2x.jpeg",
+      title:
+        "50 — different customers that we’ve user-tested had quite a lot of positive feedback.",
+      description:
+        "“BB Agency did a great job of taking general ideas and some very loosely termed flows or processes and then put them into a concrete UX experience ... BB Agency is able to translate your vision into something amazing.”",
+      author: "Matheus Matioli",
+      position: "— Customer Experience Specialist at Nexudus",
+    },
+    {
+      imgSrc: "/images/services-page-images/hilary-kay@2x.jpeg",
+      title: "151% — Increase in website sessions on Wibbitz website.",
+      description:
+        "“Finding the right agency to work with is a daunting task, but we absolutely found the right team with Balkan Bros. Each person on the team is talented, resourceful, and genuinely cared about delivering something we would love. We'll no doubt be working with them on future projects.”",
+      author: "Hilary Kay",
+      position: "— CMO at Wibbitz",
+    },
+    {
+      imgSrc: "/images/services-page-images/tom-nolan@2x.jpeg",
+      title: "30K+ — agents using the Progressive quoting app daily.",
+      description:
+        "“We've done user testing and focus groups for the designs created by Balkan Brothers.The results show that, nine times of ten, their work is outstanding.”",
+      author: "Tom Nolan",
+      position:
+        "— Experience design & Innovation leader at Progressive Insurance",
+    },
+  ],
 };

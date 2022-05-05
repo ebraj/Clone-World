@@ -3,6 +3,7 @@ import MaxWLayout from "../components/layout/MaxWLayout";
 import Header from "../components/sections/services/Header";
 import Main from "../components/sections/services/Main";
 import { datas } from "../components/datas/services";
+import Quote from "../components/utils/Quote";
 
 function services() {
   return (
@@ -14,9 +15,14 @@ function services() {
         </MaxWLayout>
 
         {/* Main Section */}
-        {/* <MaxWLayout bgColor="bg-white" textColor="text-custom-background-green">
+        <MaxWLayout bgColor="bg-white" textColor="text-custom-background-green">
           <Main datas={datas} />
-        </MaxWLayout> */}
+        </MaxWLayout>
+
+        {/* Quote Section */}
+        <MaxWLayout bgColor="bg-white" textColor="text-custom-background-green">
+          <Quote data={datas.quoteDetails[0]} />
+        </MaxWLayout>
       </Layout>
     </>
   );
