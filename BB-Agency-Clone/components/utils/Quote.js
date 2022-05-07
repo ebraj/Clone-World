@@ -1,9 +1,15 @@
 import React from "react";
 import Image from "next/image";
 
-function Quote({ data }) {
+function Quote({ data, isGreen }) {
   return (
-    <div className="sm:w-[90%] md:w-[70%] mx-auto border-l border-gray-900 pl-5 mb-10">
+    <div
+      className={
+        isGreen
+          ? `sm:w-[90%] md:w-[70%] mx-auto border-l pl-5 mb-10 border-gray-100`
+          : `sm:w-[90%] md:w-[70%] mx-auto border-l pl-5  border-gray-900`
+      }
+    >
       <p>{data.title}</p>
       <p className="py-10 text-2xl md:text-4xl">{data.description}</p>
 

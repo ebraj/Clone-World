@@ -18,7 +18,10 @@ function Capabilities({ datas }) {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
         {datas.ourCapabilities.map((singleCapability) => {
           return (
-            <div className="space-y-4 md:pl-[150px]">
+            <div
+              key={singleCapability.title}
+              className="space-y-4 md:pl-[150px]"
+            >
               <h2 className="text-3xl md:text-4xl">{singleCapability.title}</h2>
               {/* all lists */}
               <ul className="space-y-1">
