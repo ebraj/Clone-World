@@ -103,4 +103,48 @@ export const datas = {
         "— Experience design & Innovation leader at Progressive Insurance",
     },
   ],
+  ourCapabilities: [
+    {
+      title: "Branding",
+      allLists: [
+        "- Findings and opportunities",
+        "- Brand strategy",
+        "- Identity development",
+        "- Digital and print collateral",
+        "- Brand guidelines",
+      ],
+    },
+    {
+      title: "Discovery",
+      allLists: [
+        "- Competitive benchmarking",
+        "- Customer research and data analysis",
+        "- Stakeholder and user interviews",
+        "- User flows and customer journey",
+        "- Information architecture",
+        "- Wireframes and testing",
+      ],
+    },
+    {
+      title: "Digital experiences",
+      allLists: [
+        "- Marketing websites",
+        "- Digital products",
+        "- Mobile apps",
+        "- Design systems",
+        "- Interactions and animations",
+        "- Illustrations and iconography",
+      ],
+    },
+    {
+      title: "Engineering",
+      allLists: [
+        "- Front-end development",
+        "- Website development",
+        "- Product development",
+        "- CMS implementation",
+        "- Quality assurance",
+      ],
+    },
+  ],
 };
