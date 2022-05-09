@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function Work({ datas }) {
   return (
@@ -17,7 +18,7 @@ function Work({ datas }) {
       {/* Work Double Layout */}
       <div className="grid sm:grid-cols-2 sm:gap-10 md:gap-24">
         {/* Left Part */}
-        {datas.workImgDetails.map((singleImgDetail) => {
+        {datas.map((singleImgDetail) => {
           return (
             <div key={singleImgDetail.imgSrc}>
               <Image
@@ -39,6 +40,15 @@ function Work({ datas }) {
             </div>
           );
         })}
+      </div>
+
+      {/* Showing button */}
+      <div className="text-center py-5">
+        <button className="text-2xl border-b-2">
+          <Link href="/work">
+            <a>View all Projects</a>
+          </Link>
+        </button>
       </div>
     </div>
   );

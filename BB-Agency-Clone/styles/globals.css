@@ -32,6 +32,9 @@
   .custom-white-btn {
     @apply px-5 py-2 rounded-full bg-custom-primary-white text-custom-background-green;
   }
+  .custom-nav-green-btn {
+    @apply px-5 py-2 rounded-full bg-custom-background-green text-white font-LGSemiBold;
+  }
   .custom-yellow-btn {
     @apply px-8 py-3 rounded-full bg-custom-light-yellow text-custom-background-green font-LGSemiBold;
   }

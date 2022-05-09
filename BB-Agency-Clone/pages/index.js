@@ -19,7 +19,7 @@ export default function Home() {
 
         {/* Work Section */}
         <MaxWLayout bgColor="bg-white" textColor="text-custom-background-green">
-          <Work datas={datas} />
+          <Work datas={datas.workImgDetails.slice(0, 5)} />
         </MaxWLayout>
 
         {/* About Section */}

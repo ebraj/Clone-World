@@ -36,7 +36,7 @@ function Header() {
         {/*Extra Description */}
         <div className="py-12 lg:pl-96">
           <p className="text-2xl leading-[35px] md:text-3xl md:leading-[40px]">
-            <p>
+            <span>
               Our clients are the companies and startups who make the world go
               round —{" "}
               <span className="border-b border-custom-light-green">
@@ -62,8 +62,8 @@ function Header() {
               <span className="border-b border-custom-light-green">
                 publish courses.
               </span>
-            </p>
-            <p className="py-10">
+            </span>
+            <span className="py-10">
               Vast and complex businesses like these need{" "}
               <span className="text-custom-light-green">
                 digital experiences
@@ -73,12 +73,12 @@ function Header() {
               as they are{" "}
               <span className="text-custom-light-green">robust & scalable</span>
               .
-            </p>
-            <p>
+            </span>
+            <span>
               {" "}
               Through challenging core assumptions, we shape the products and
               services that improve the lives of thousands every single day.
-            </p>
+            </span>
           </p>
 
           {/* Link */}
